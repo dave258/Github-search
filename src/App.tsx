@@ -74,7 +74,7 @@ const App: React.FC = () => {
       {error && <p className="text-red-500 mt-4">{error}</p>}
 
       {userProfile && (
-        <div className="mt-8 p-6 bg-gray-900 rounded-lg shadow-lg max-w-md w-full">
+        <div className="mt-8 p-6 bg-gray-600 rounded-lg shadow-lg max-w-md w-full">
           <img
             src={userProfile.avatar_url}
             alt={userProfile.login}
